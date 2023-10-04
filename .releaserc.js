@@ -81,7 +81,9 @@ module.exports = {
                 "changelogTitle": "# 🚦 CHANGELOG | 변경 사항을 기록해요."
             }
         ],
-        '@semantic-release/npm',
+        '@semantic-release/npm', {
+            "npmPublish": false,
+        },
         [
             "@semantic-release/git",
             {
@@ -90,7 +92,7 @@ module.exports = {
                     "CHANGELOG.md"
                 ],
                 "message": "chore(release): set `package.json` to ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-            }
-        ]
+            },
+        ],
     ]
 }
