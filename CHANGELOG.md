@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG | 변경 사항을 기록해요.
 
+## [1.0.1](https://github.com/HanSeongLee/semantic-release-test/compare/v1.0.0...v1.0.1) (2023-10-23)
+
+
+### 📝 Docs
+
+* **README:** update README.md ([bb3ac03](https://github.com/HanSeongLee/semantic-release-test/commit/bb3ac033a0195a966ed6dfe1f2bd8cc6561eedaa))
+
 ## 1.0.0 (2023-10-04)
 
 
